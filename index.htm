@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="get">
+    <p>This is where the form controls will appear.
+    </p>
+    <p><label for="username">Username</label>
+        <input id="username" type="text" name="name " size="10" maxlength="15" />
+        </p>
+            <p>
+                Password: <input type="password" name="passwd">
+            </p>
+            <p>
+                CNIC: <input type="number" name="cnic" maxlength="13">
+            </p>
+            <p> Comment Box:
+                <textarea name="comments" cols="20" rows="4"></textarea>
+            </p>
+            <p>Please select your favorite Subject:
+                <br />
+                <input type="radio" name="subject" value="math" checked="checked" /> Maths
+                <input type="radio" name="subject" value="physics" /> Physics
+                <input type="radio" name="subject" value="eng" /> English
+            </p>
+
+            <p>Please select club service(s):
+                <br />
+                <input type="checkbox" name="service" value="swim" checked="checked" /> Swiming
+                <input type="checkbox" name="service" value="tennis" /> Tennis
+                <input type="checkbox" name="service" value="lib" /> Library
+                <input type="checkbox" name="service" value="bowling">Bowling
+            </p>
+
+            <p>Country:</p>
+            <select name="country">
+                <option value="pakistan">Pakistan</option>
+                <option value="usa">US</option>
+                <option selected value="uk" >UK</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <p>Country:</p>
+            <select name="country" multiple='multiple'>
+                <option value="pakistan">Pakistan</option>
+                <option value="usa">US</option>
+                <option selected value="uk" >UK</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <p>
+                <input type="file" name="file_upload" id=""><br>
+                <input type="submit" value="Upload" id="">
+                    
+            </p>
+
+</form>
+
+</body>
+</html>
